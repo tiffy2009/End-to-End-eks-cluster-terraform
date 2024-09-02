@@ -1,6 +1,6 @@
 variable "aws-region" {}
-variable "access_key" {}
-variable "secret_key" {}
+# variable "access_key" {}
+# variable "secret_key" {}
 variable "env" {}
 variable "org" {}
 variable "cluster-name" {}

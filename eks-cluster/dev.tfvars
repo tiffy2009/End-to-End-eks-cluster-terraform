@@ -1,6 +1,6 @@
 env                   = "dev"
-access_key            = "$ACCESS_KEY"
-secret_key            = "$SECRET_KEY"
+# access_key            = "$ACCESS_KEY"
+# secret_key            = "$SECRET_KEY"
 org                   = "emortoo"
 aws-region            = "us-east-1"
 vpc-cidr-block        = "10.16.0.0/16"
