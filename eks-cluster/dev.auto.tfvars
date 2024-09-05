@@ -1,7 +1,7 @@
 env                   = "dev"
 # access_key            = "$ACCESS_KEY"
 # secret_key            = "$SECRET_KEY"
-org                   = "emortoo"
+org                   = "unitedcore"
 aws-region            = "us-east-1"
 vpc-cidr-block        = "10.16.0.0/16"
 vpc-name              = "eks-vpc"

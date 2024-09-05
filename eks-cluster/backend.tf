@@ -7,16 +7,16 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "my-terraform-remote-backend-s3"
+    bucket         = "mydevsecbucket"
     region         = "us-east-1"
-    key            = "mean-stack-application/dev/eks-terraform/terraform.tfstate"
-    dynamodb_table = "eks-terraform-lock-files"
+    key            = "unitedeks/terraform.tfstate"
+    dynamodb_table = "uniteddb"
     encrypt        = true
   }
 }
 
 provider "aws" {
   region     = var.aws-region
-  # access_key = var.access_key
-  # secret_key = var.secret_key
+  # access_key = ""
+  # secret_key = ""
 }
